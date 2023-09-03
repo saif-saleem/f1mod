@@ -67,7 +67,7 @@ box-shadow: -72px -59px 54px -50px rgba(219, 64, 64, 0.12),
 .love{
     position: relative;
     right: 45px;
-    top: 20px;
+    top: 30px;
 }
 
 .input-group-text{
@@ -77,6 +77,19 @@ box-shadow: -72px -59px 54px -50px rgba(219, 64, 64, 0.12),
     border: none !important;
     background-color: #FAFAFA !important;
 
+}
+
+.sal{
+    border-radius: 8px;
+border: 1px solid #E2E2E2;
+background: #FFF;
+box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+padding-left: 20px;
+
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+z-index: 1;
 }
 
 .form-control{
@@ -140,6 +153,8 @@ background: var(--New, linear-gradient(277deg, #992FED 0%, #2F80ED 100%));
 
 .herohead1{
     font-family: 'ABeeZee', sans-serif;
+    position: relative;
+    top: 30px;
 }
 .herohead2{
     color: var(--textlabelcolorscharcoal, #595959);
@@ -149,6 +164,9 @@ background: var(--New, linear-gradient(277deg, #992FED 0%, #2F80ED 100%));
     font-weight: 400;
     line-height: 130%; /* 23.4px */
     letter-spacing: 0.36px;
+    position: relative;
+    top: 40px;
+
 }
 
 .courses{
@@ -558,4 +576,15 @@ flex-direction: column;
     margin-top: 60px;
 }
 
+.sal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.arr{
+display: none;
+}
 }
