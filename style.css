@@ -346,7 +346,7 @@ padding-bottom: 5px;
 }
 
 .comnm{
-    width: 90%;
+    width: 77%;
     margin: auto;
 }
 
@@ -397,7 +397,7 @@ letter-spacing: 0.36px;
 }
 
 .wall2{
-    width: 90%;
+    width: 77%;
     margin: auto;
     
     height: 550px;
@@ -563,6 +563,7 @@ flex-direction: column;
     flex-direction: column; 
 }
 .wall2{
+    
     align-items: center;
     /* justify-content: center; */
     display: flex;
